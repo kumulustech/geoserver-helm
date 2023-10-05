@@ -3,6 +3,16 @@ entries:
   geoserver:
   - apiVersion: v2
     appVersion: 2.23.1
+    created: "2023-10-05T15:20:31.886280884Z"
+    description: Deploy the GeoServer GIS Data Server
+    digest: 2c41ea4b2c3de85953bdddfd805f132ed54cb46a0f0777df6d5943d71288308f
+    name: geoserver
+    type: application
+    urls:
+    - https://github.com/kumulustech/geoserver-helm/releases/download/geoserver-0.1.2/geoserver-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2.23.1
     created: "2023-10-05T00:31:28.848130114Z"
     description: Deploy the GeoServer GIS Data Server
     digest: 260559f6b78cc3a2379dca928f886c8ea41ba948e03776fd088679c69a11adf8
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/kumulustech/geoserver-helm/releases/download/geoserver-0.1.1/geoserver-0.1.1.tgz
     version: 0.1.1
-generated: "2023-10-05T00:31:28.848135614Z"
+generated: "2023-10-05T15:20:31.886305585Z"
