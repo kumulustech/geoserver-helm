@@ -1,0 +1,6 @@
+apiVersion: v2
+name: geoserver
+description: Deploy the GeoServer GIS Data Server
+type: application
+version: 0.1.1
+appVersion: "2.23.1"
